@@ -1,0 +1,40 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+.fl-page-content .fl-row-fixed-width {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title-404 {
+  position: relative;
+  line-height: 260px;
+  z-index: 1;
+  font-size: 200px;
+  font-weight: bold;
+  color: #e84855;
+}
+.fl-page-footer-container.container {
+  padding: 1rem 0;
+}
+.fl-page-footer-container.container .fl-page-footer-row .fl-page-footer-text,
+.fl-page-footer-container.container .fl-page-footer-row .fl-page-footer-api {
+  padding: 0.3rem 0;
+}
+.fl-page-footer-container.container .fl-page-footer-row .fl-page-footer-text a:hover,
+.fl-page-footer-container.container .fl-page-footer-row .fl-page-footer-api a:hover {
+  color: red !important;
+  text-decoration: none !important;
+}
+@media (max-width: 480px) {
+  .title-404 {
+    line-height: 180px;
+    font-size: 120px;
+  }
+}
